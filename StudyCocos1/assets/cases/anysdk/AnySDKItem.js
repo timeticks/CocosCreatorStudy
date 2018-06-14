@@ -6,7 +6,7 @@ cc.Class({
             default: null,
             type: cc.Label
         },
-        bg: cc.Sprite,
+        btnBg: cc.Sprite,
         btn: cc.Button
     },
 
@@ -24,7 +24,7 @@ cc.Class({
         this.node.y = y;
         this.node.x = 100;
         this.label.string = name;
-        this.bg.enabled = true;
+        this.btnBg.enabled = true;
         this.btn.interactable = true;
     }
 });

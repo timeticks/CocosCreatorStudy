@@ -80,6 +80,17 @@
       false,
       true,
       false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
     ]
   ],
   "design-resolution-height": 640,
@@ -95,7 +106,8 @@
     "Wall",
     "Collider",
     "PlayerFlower",
-    "RunFlower"
+    "MonsterFlower",
+    "DisableFlower"
   ],
   "simulator-orientation": false,
   "simulator-resolution": {

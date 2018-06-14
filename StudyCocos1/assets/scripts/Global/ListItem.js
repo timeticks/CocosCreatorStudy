@@ -7,7 +7,7 @@ cc.Class({
             type: cc.Label
         },
         url: '',
-        bg: cc.Sprite,
+        btnBg: cc.Sprite,
         btn: cc.Button
     },
 
@@ -29,7 +29,7 @@ cc.Class({
         this.node.x = isDir ? 50 : 100;
         this.label.string = name;
         this.url = url;
-        this.bg.enabled = !isDir;
+        this.btnBg.enabled = !isDir;
         this.btn.interactable = !isDir;
     }
 });
